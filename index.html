@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="styly.css" />
+  </head>
+
+  <body>
+    <div class="allPage">
+      <div class="languageDiv">
+        <label class="switch">
+          <input type="checkbox" class="languageBtn" />
+          <span class="slider round"></span>
+        </label>
+        <p class="language">EN</p>
+      </div>
+      <div class="playground">
+        <div class="radioBtn">
+          <div class="radioBtnText">Choose number of players:</div>
+          <div>
+            <input
+              type="radio"
+              name="choice"
+              value="choice-1"
+              id="choice-1"
+              class="radio"
+              checked
+            />
+            <label for="choice-1" class="radioText">1 Player</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              name="choice"
+              value="choice-2"
+              id="choice-2"
+              class="radio"
+            />
+            <label for="choice-2" class="radioText">2 Players</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              name="choice"
+              value="choice-3"
+              id="choice-3"
+              class="radio"
+            />
+            <label for="choice-3" class="radioText">3 Players</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              name="choice"
+              value="choice-4"
+              id="choice-4"
+              class="radio"
+            />
+            <label for="choice-4" class="radioText"> 4 Players</label>
+          </div>
+        </div>
+        <!-- Rounded switch -->
+
+        <!--BARS FOR ALL PLAYERS-->
+        <div class="playersBars">
+          <div class="player1-bar player-bar">
+            <div class="totalScore">
+              <p class="name-0">PLAYER 1</p>
+              <p class="totalScorePlayer-0">0</p>
+            </div>
+          </div>
+          <div class="player2-bar player-bar">
+            <div class="totalScore">
+              <p class="name-0">PLAYER 2</p>
+              <p class="totalScorePlayer-0">0</p>
+            </div>
+          </div>
+          <div class="player3-bar player-bar">
+            <div class="totalScore">
+              <p class="name-0">PLAYER 3</p>
+              <p class="totalScorePlayer-0">0</p>
+            </div>
+          </div>
+          <div class="player4-bar player-bar">
+            <div class="totalScore">
+              <p class="name-0">PLAYER 4</p>
+              <p class="totalScorePlayer-0">0</p>
+            </div>
+          </div>
+
+          <div class="activePlayerBar">
+            <div class="currentScore currentScore0">
+              <p class="pointsThisRound">POINTS THIS ROUND</p>
+              <p class="currentscore-0">+100</p>
+            </div>
+            <div class="plusThisRound plusThisRound0">
+              <p class="plusthisround-0">+100</p>
+            </div>
+          </div>
+
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="nameImputs">
+          <input type="text" name="choice" value="Player 1" class="text" />
+          <input type="text" name="choice" value="Player 2" class="text" />
+          <input type="text" name="choice" value="Player 3" class="text" />
+          <input type="text" name="choice" value="Player 4" class="text" />
+        </div>
+
+        <div class="dice">
+          <img src="img/1.png" alt="" class="diceImage" />
+          <img src="img/2.png" alt="" class="diceImage" />
+          <img src="img/3.png" alt="" class="diceImage" />
+          <img src="img/4.png" alt="" class="diceImage" />
+          <img src="img/5.png" alt="" class="diceImage" />
+          <img src="img/6.png" alt="" class="diceImage" />
+        </div>
+        <div class="buttons">
+          <div class="middleText">
+            <button class="btn2" id="writeScore">
+              WRITE (next&nbspplayer)
+            </button>
+            <button class="btn2" id="rollDice">ROLL!</button>
+            <button class="btn2" id="rollAllDice">ROLL ALL!</button>
+
+            <button class="btn2" id="skipTurn">SKIP (next&nbspplayer)</button>
+          </div>
+          <div class="startButton">
+            <button class="btn1" id="start">START THE GAME</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="test.js"></script>
+</html>
